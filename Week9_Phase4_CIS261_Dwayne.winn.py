@@ -1,6 +1,6 @@
 
 #Dwayne Winn Class Project week 9
-
+#   
 def main():
     c_user() #I moved this to admin only access used here to create first admin accont 
     e_detail = []
@@ -41,11 +41,11 @@ def main():
              e_detail.insert(1, e_date)
              e_detail.insert(2, emp_name)
              e_detail.insert(3, hours)
-             e_detail.insert(4, float(p_rate)
+             e_detail.insert(4, float(p_rate))
              e_detail.insert(5, t_rate)
    
-            #write file
-            write_emp_list(e_detail)
+             #write file
+             write_emp_list(e_detail)
        print()
        #function to get date or all
        s_date = start_date
